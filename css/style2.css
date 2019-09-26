@@ -1,0 +1,52 @@
+* {
+   font-family: 'Shadows Into Light', cursive;
+   /*border: 2px solid red;*/
+}
+
+body {
+    width: 100%;
+}
+
+.ul-inline {
+    background-color: burlywood;
+    width: 75%;
+}
+
+.ul-inline li {
+    display: inline;
+    background-color: crimson;
+}
+
+.ul-inline-block {
+    background-color: aquamarine;
+    
+}
+
+.ul-inline-block li {
+    display: inline-block;
+    background-color: forestgreen;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    color: azure;
+}
+
+.ul-block {
+    background-color: darkcyan;
+    color: #fff;
+    width: 80%;
+}
+
+.ul-block li {
+    display: block;
+    height: 100px;
+    width: 20%;
+    margin: 0 auto;
+    border: 2px solid salmon;
+    box-sizing: border-box;
+}
+
+.ul-block-wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
